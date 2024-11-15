@@ -1,0 +1,18 @@
+.card{
+
+  color: white;
+  background-color: black;
+  padding: 5px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+
+  &:hover{
+    border: mediumorchid solid 3px;
+  }
+}
+
+.img-size {
+  height: 1O0px;
+  width: 100px;
+  object-fit: cover;
+}

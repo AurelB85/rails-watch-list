@@ -1,0 +1,10 @@
+<div class="container">
+<h1>Create Your Own List</h1>
+
+<%= simple_form_for @list do |f|%>
+  <%= f.input :name %>
+  <%= f.submit %>
+<% end %>
+<%= link_to "Cancel", lists_path, class:"btn btn-light"%>
+
+</div>
